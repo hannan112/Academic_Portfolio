@@ -1,0 +1,205 @@
+%-------------------------------------------------------------------------------
+% Hannan Ali -- Academic Curriculum Vitae
+% Compile with pdfLaTeX (XeLaTeX/LuaLaTeX also fine)
+%-------------------------------------------------------------------------------
+\documentclass[letterpaper,10pt]{article}
+
+\usepackage[empty]{fullpage}
+\usepackage[left=0.68in,right=0.68in,top=0.5in,bottom=0.5in]{geometry}
+\usepackage{titlesec}
+\usepackage{enumitem}
+\usepackage{tabularx}
+\usepackage{array}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{latexsym}
+\usepackage[hidelinks]{hyperref}
+\usepackage{microtype}
+\usepackage{needspace}
+
+% FontAwesome icons; degrade gracefully if the package is unavailable.
+\IfFileExists{fontawesome5.sty}{%
+	\usepackage{fontawesome5}%
+}{%
+	\providecommand{\faMapMarker}{}%
+	\providecommand{\faEnvelope}{}%
+	\providecommand{\faLinkedin}{}%
+	\providecommand{\faGithub}{}%
+}
+
+\urlstyle{same}
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+\pagestyle{empty}
+
+%------------------------------------------------------------------- Formatting
+\titleformat{\section}{\vspace{-6pt}\scshape\large}{}{0em}{}[\color{black}\titlerule\vspace{-4pt}]
+
+\newcolumntype{R}{>{\raggedleft\arraybackslash}p{1.45in}}
+
+\newcommand{\cvitem}[4]{%
+	\Needspace*{5\baselineskip}\vspace{1pt}\item[]
+	\begin{tabularx}{0.99\textwidth}[t]{@{}XR@{}}
+		\textbf{#1} & \textbf{\small #2} \\
+		\textit{\small #3} & \textit{\small #4} \\
+	\end{tabularx}\vspace{-5pt}
+}
+
+\newcommand{\cvitemsingle}[2]{%
+	\Needspace*{5\baselineskip}\vspace{1pt}\item[]
+	\begin{tabularx}{0.99\textwidth}[t]{@{}XR@{}}
+		\textbf{#1} & \textbf{\small #2} \\
+	\end{tabularx}\vspace{-5pt}
+}
+
+\newcommand{\cvpub}[2]{%
+	\vspace{2pt}\item[]
+	\begin{tabularx}{0.99\textwidth}[t]{@{}XR@{}}
+		#1 & {\small \textit{#2}} \\
+	\end{tabularx}\vspace{-4pt}
+}
+
+\newcommand{\cvbullet}[1]{\item\small{#1 \vspace{-2pt}}}
+\newcommand{\cvlist}{\begin{itemize}[leftmargin=0.16in,label=$\bullet$,topsep=2pt,itemsep=1pt,parsep=0pt]}
+	\newcommand{\cvlistend}{\end{itemize}\vspace{-4pt}}
+\newcommand{\cvsectionlist}{\begin{itemize}[leftmargin=0in,label={}]}
+	\newcommand{\cvsectionlistend}{\end{itemize}}
+
+%-------------------------------------------------------------------------------
+\begin{document}
+	
+	%--------------------------------------------------------------------- Heading
+	\begin{center}
+		{\Huge \scshape Hannan Ali} \\ \vspace{4pt}
+		\small
+		\faMapMarker{} Lahore, Pakistan $\;\vert\;$
+		\faEnvelope{} \href{mailto:i.hannanalimirza@gmail.com}{i.hannanalimirza@gmail.com} $\;\vert\;$
+		\faGlobe{} \href{https://hannan112.github.io/Acedamic_Portfolio/}{Website} $\;\vert\;$
+		\faGithub{} \href{https://github.com/hannan112}{GitHub} $\;\vert\;$
+		\faLinkedin{} \href{https://www.linkedin.com/in/hannan-ali-344600248}{LinkedIn}
+	\end{center}
+	\vspace{-6pt}
+	
+	%-------------------------------------------------------------------- Education
+	\section{Education}
+	\cvsectionlist
+	\cvitem
+	{COMSATS University Islamabad, Lahore Campus}{Lahore, Pakistan}
+	{B.S. in Software Engineering}{Completed Jan.\ 2026}
+	\cvlist
+	\cvbullet{\textbf{Undergraduate Thesis:} \textit{Machine-Learning-Assisted Automation of Web Application Penetration Testing} (team lead, three-person team).}
+	\cvbullet{\textbf{Systems Coursework:} Operating Systems, Computer Architecture, Distributed Systems, Computer Networks, Algorithms, Data Structures, Software Security, Database Systems, Probability \& Statistics.}
+	\cvlistend
+	\cvsectionlistend
+	
+	%------------------------------------------------------------ Research Interests
+	\section{Research Interests}
+	\cvsectionlist
+	\item[]\small{
+		High-performance computing, computer architecture, and operating systems, with emphasis on parallel and
+		heterogeneous execution, runtime and distributed systems, and the experimental methodology used to evaluate
+		them: benchmarking, scalability and latency analysis, cache locality, concurrency, and the security properties
+		of systems software.
+	}
+	\cvsectionlistend
+	\vspace{-4pt}
+	
+	%----------------------------------------------------------- Research Experience
+	\section{Research Experience}
+	\cvsectionlist
+	
+	\cvitem
+	{Undergraduate Researcher --- Performance Evaluation of Execution Architectures}{Lahore, Pakistan}
+	{COMSATS University Islamabad $\;\vert\;$ Advisor-supervised independent study}{2025 -- 2026}
+	\cvlist
+	\cvbullet{Investigated how execution strategy governs the throughput and scalability of a security-scanning workload, treating sequential, multithreaded, and multiprocess configurations as the independent variable in a controlled experiment.}
+	\cvbullet{Designed the experimental methodology: repeated trials under fixed workloads, instrumented measurement of wall-clock latency, CPU utilization, resident memory, and throughput, and scaling sweeps over concurrency levels.}
+	\cvbullet{Analyzed results with non-parametric hypothesis testing (Kruskal--Wallis, Mann--Whitney U) to establish statistical significance and to localize bottlenecks arising from process-level parallelism and I/O contention.}
+	\cvbullet{Implemented a reusable benchmarking harness automating experiment orchestration, result aggregation, and statistical analysis, so that the evaluation is reproducible across workloads and machines.}
+	\cvlistend
+	
+	\cvitem
+	{Undergraduate Thesis Researcher --- Automated Vulnerability Analysis}{Lahore, Pakistan}
+	{COMSATS University Islamabad $\;\vert\;$ Team lead, three-person team}{2025}
+	\cvlist
+	\cvbullet{Motivation: automated web-application security assessment is limited less by detection coverage than by the false-positive rate of the resulting reports, which shifts the cost of analysis back onto the analyst.}
+	\cvbullet{Designed an end-to-end vulnerability-analysis pipeline covering the OWASP Top 10, combining active scanning (OWASP ZAP) with passive crawling and response analysis (Scrapy) behind a modular service interface.}
+	\cvbullet{Explored supervised classification over scan output to separate genuine findings from false positives, evaluated against labeled scan datasets rather than anecdotal test targets.}
+	\cvbullet{Led experimental design, evaluation protocol, and written reporting for a three-person team.}
+	\cvlistend
+	
+	\cvsectionlistend
+	
+	%------------------------------------------------------------------ Publications
+	\section{Publications}
+	\cvsectionlist
+	\cvpub{\small \textbf{Hannan Ali}. ``Performance and Scalability Evaluation of the Nuclei Vulnerability Scanner Under Different Execution Architectures.'' \textit{Manuscript under review.}}{2026}
+	\cvlist
+	\cvbullet{Characterizes the performance envelope of a widely used template-driven vulnerability scanner across sequential, multithreaded, and parallel-process execution strategies.}
+	\cvbullet{Contributes an empirical scalability analysis over execution time, CPU utilization, memory consumption, and throughput, with statistically grounded comparisons between strategies, and an open benchmarking framework for reproducible evaluation of scanning workloads.}
+	\cvbullet{\textbf{Status:} manuscript complete and under advisor review ahead of conference submission.}
+	\cvlistend
+	\cvsectionlistend
+	
+	%----------------------------------------------------- Selected Research Projects
+	\section{Selected Research Projects}
+	\cvsectionlist
+	
+	\cvitemsingle{Low-Latency Order Book for NASDAQ ITCH Market Data \small{(C++)}}{2026}
+	\cvlist
+	\cvbullet{Designed and implemented cache-efficient data structures for an ITCH-protocol order book operating on a high-rate message stream, where per-message latency, not aggregate throughput, is the binding constraint.}
+	\cvbullet{Explored memory-aligned layouts, struct packing, and data-oriented organization to improve cache locality and reduce pointer chasing on the hot path.}
+	\cvbullet{Benchmarked layout and algorithmic variants against one another to attribute latency reductions to specific architectural effects rather than to incidental code changes.}
+	\cvlistend
+	
+	\cvitemsingle{Sensor-Driven Embedded Monitoring System \small{(ESP32, C++)}}{2025}
+	\cvlist
+	\cvbullet{Designed an event-driven system on a resource-constrained microcontroller, with sensing, local decision logic, and network notification sharing a single execution budget.}
+	\cvbullet{Analyzed and tuned compute, networking, and notification behavior under variable workloads to bound responsiveness and energy cost.}
+	\cvlistend
+	
+	\cvsectionlistend
+	
+	%------------------------------------------------------------ Industry Experience
+	\section{Industry Experience}
+	\cvsectionlist
+	
+	\cvitem
+	{Software Engineer}{Lahore, Pakistan}
+	{Utilexa Labs}{Jan.\ 2025 -- Present}
+	\cvlist
+	\cvbullet{Implement backend services and APIs in Python and C++, with responsibility for latency, throughput, and resource behavior of the services in production.}
+	\cvbullet{Analyze and tune server-side performance; work across the deployment path from design through containerized release.}
+	\cvlistend
+	
+	\cvitem
+	{Freelance Software Engineer}{Remote}
+	{Independent}{Jan.\ 2023 -- Dec.\ 2024}
+	\cvlist
+	\cvbullet{Designed and implemented backend architectures and REST APIs for international clients (Python, Django) --- data model, request handling, and deployment configuration --- with accompanying client applications in React and Next.js.}
+	\cvlistend
+	
+	\cvsectionlistend
+	
+	%-------------------------------------------------------------- Technical Skills
+	\section{Technical Skills}
+	\cvsectionlist
+	\item[]
+	\small{
+		\begin{tabularx}{0.99\textwidth}{@{}>{\raggedright\arraybackslash\bfseries}p{1.75in} X@{}}
+			Programming Languages & C, C++, Python, Bash, SQL, JavaScript \\
+			Systems Programming & Linux, POSIX APIs, memory management, concurrency and synchronization, containerization (Docker) \\
+			Performance Engineering & Benchmarking methodology, latency and throughput measurement, cache-aware data layout, profiling-driven optimization \\
+			Parallel Computing & Multithreaded and multiprocess execution models, scalability analysis \\
+			Machine Learning & Supervised classification, feature engineering, model evaluation (scikit-learn) \\
+			Statistical Methods & Non-parametric hypothesis testing (Kruskal--Wallis, Mann--Whitney U), experimental design \\
+			Security Tools & OWASP ZAP, Burp Suite, Nmap, Nuclei, Scrapy \\
+			Embedded Systems & ESP32, Arduino, sensor interfacing \\
+
+		\end{tabularx}
+	}
+	\cvsectionlistend
+	
+\end{document}

@@ -9,10 +9,10 @@
 # # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
-title                    : "Hannan Ali Mirza"
+title                    : "Hannan Ali"
 title_separator          : "-"
-name                     : &name "Hannan Ali Mirza"
-description              : &description "Hannan Ali Mirza - Software Engineer & Aspiring Computer Systems Researcher"
+name                     : &name "Hannan Ali"
+description              : &description "Hannan Ali - Software Engineer & Aspiring Computer Systems Researcher"
 url                      : "https://hannan112.github.io"
 baseurl                  : "/Acedamic_Portfolio" # Subpath for repository Acedamic_Portfolio
 repository               : "hannan112/Acedamic_Portfolio"
@@ -21,7 +21,7 @@ repository               : "hannan112/Acedamic_Portfolio"
 author:
   # Biographic information
   avatar           : "profile.png" # Place your image in /images/profile.png
-  name             : "Hannan Ali Mirza"
+  name             : "Hannan Ali"
   pronouns         : # example: "he/him" or "she/her"
   bio              : "Software Engineer & Aspiring Computer Systems Researcher"
   location         : "Lahore, Pakistan"
@@ -29,24 +29,11 @@ author:
   uri              : # Personal external URL
   email            : "i.hannanalimirza@gmail.com"
 
-  # Academic websites (Academicons icons)
-  googlescholar    : # URL
-  orcid            : # URL
-  arxiv            : # e.g., "https://arxiv.org/a/..."
-  researchgate     : # e.g., "https://www.researchgate.net/profile/..."
-  semantic         : # Semantic Scholar URL
-  scopus           : # Scopus author URL
-  pubmed           : # PubMed URL
-
   # Repositories and software development
   github           : "hannan112"
-  kaggle           : # Your Kaggle username
-  huggingface      : # Your HuggingFace username
 
   # Social media & Professional networks
   linkedin         : "hannan-ali-344600248"
-  twitter          : # Your Twitter / X handle
-  bluesky          : # Your Bluesky handle
 
 # Publication Category - Headings for the Publications page
 publication_category:

@@ -6,7 +6,7 @@ permalink: /publication/2026-performance-scalability-nuclei-scanner
 excerpt: 'A comprehensive empirical study evaluating the throughput, resource consumption, and scaling bottlenecks of the Nuclei vulnerability scanner across diverse multi-core and distributed execution environments.'
 date: 2026-09-01
 venue: 'Under Supervisor Review (Targeting Conference Submission)'
-citation: '<b>Hannan Ali Mirza</b>, et al. (2026). &quot;Performance and Scalability Evaluation of the Nuclei Vulnerability Scanner Under Different Execution Architectures.&quot; <i>Under Review</i>.'
+citation: '<b>Hannan Ali</b>, et al. (2026). &quot;Performance and Scalability Evaluation of the Nuclei Vulnerability Scanner Under Different Execution Architectures.&quot; <i>Under Review</i>.'
 ---
 
 ### Status

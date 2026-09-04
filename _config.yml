@@ -20,7 +20,7 @@ repository               : "hannan112/Acedamic_Portfolio"
 # Site Author - Controls the left-hand sticky sidebar profile
 author:
   # Biographic information
-  avatar           : "profile.png" # Place your image in /images/profile.png
+  avatar           : "Hannan_Ali.png" # Profile photo in /images/ or /assets/
   name             : "Hannan Ali"
   pronouns         : # example: "he/him" or "she/her"
   bio              : "Software Engineer & Aspiring Computer Systems Researcher"

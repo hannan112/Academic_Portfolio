@@ -1,0 +1,13 @@
+# Top Navigation Menu
+main:
+  - title: "About"
+    url: /
+
+  - title: "Publications"
+    url: /publications/
+
+  - title: "Research & Projects"
+    url: /portfolio/
+
+  - title: "CV & Experience"
+    url: /cv/

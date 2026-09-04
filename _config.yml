@@ -9,10 +9,10 @@
 # # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
-title                    : "Hannan / Academic Portfolio"
+title                    : "Hannan Ali Mirza"
 title_separator          : "-"
-name                     : &name "Hannan"
-description              : &description "Hannan's Academic Portfolio & Research Website"
+name                     : &name "Hannan Ali Mirza"
+description              : &description "Hannan Ali Mirza - Software Engineer & Aspiring Computer Systems Researcher"
 url                      : "https://hannan112.github.io"
 baseurl                  : "/Acedamic_Portfolio" # Subpath for repository Acedamic_Portfolio
 repository               : "hannan112/Acedamic_Portfolio"
@@ -21,17 +21,17 @@ repository               : "hannan112/Acedamic_Portfolio"
 author:
   # Biographic information
   avatar           : "profile.png" # Place your image in /images/profile.png
-  name             : "Hannan"
+  name             : "Hannan Ali Mirza"
   pronouns         : # example: "he/him" or "she/her"
-  bio              : "Researcher & Developer | Computer Science"
-  location         : "City, Country"
-  employer         : "University / Institution Name"
+  bio              : "Software Engineer & Aspiring Computer Systems Researcher"
+  location         : "Lahore, Pakistan"
+  employer         : "Utilexa Labs Pvt Ltd"
   uri              : # Personal external URL
-  email            : "hannan@example.edu" # Update with your email
+  email            : "i.hannanalimirza@gmail.com"
 
   # Academic websites (Academicons icons)
-  googlescholar    : "https://scholar.google.com/"
-  orcid            : "https://orcid.org/"
+  googlescholar    : # URL
+  orcid            : # URL
   arxiv            : # e.g., "https://arxiv.org/a/..."
   researchgate     : # e.g., "https://www.researchgate.net/profile/..."
   semantic         : # Semantic Scholar URL
@@ -39,14 +39,14 @@ author:
   pubmed           : # PubMed URL
 
   # Repositories and software development
-  github           : "hannan112" # Your GitHub username
+  github           : "hannan112"
   kaggle           : # Your Kaggle username
   huggingface      : # Your HuggingFace username
 
   # Social media & Professional networks
-  linkedin         : "username" # Your LinkedIn username or URL
+  linkedin         : "hannan-ali-344600248"
   twitter          : # Your Twitter / X handle
-  bluesky          : # Your Bluesky handle (e.g. user.bsky.social)
+  bluesky          : # Your Bluesky handle
 
 # Publication Category - Headings for the Publications page
 publication_category:

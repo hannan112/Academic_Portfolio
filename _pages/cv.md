@@ -17,44 +17,40 @@ redirect_from:
 
 Education
 ======
-* **Ph.D. in Computer Science** — University Name, *2024 – Present*
-  * *Advisor:* Prof. Advisor Name
-  * *Focus Area:* High-Performance Computing, AI/ML Systems
-* **B.S. in Computer Science** — University Name, *2020 – 2024*
-  * *GPA / Honors:* Magna Cum Laude / Dean's Honor List
+* **B.S. in Software Engineering** — COMSATS University Islamabad, Lahore Campus (*Graduated 2026*)
+  * *Focus Area:* Computer Systems, Systems Security, Software Engineering
 
-Research & Work Experience
+Professional Experience
 ======
-* **Graduate Research Assistant** (*2024 – Present*)
-  * *Lab / Department:* High Performance Systems Lab
-  * Designed and benchmarked parallel algorithms and GPU-accelerated computing pipelines.
-  * Collaborated with cross-functional research teams to draft conference papers and open-source packages.
+* **Software Engineer** — Utilexa Labs Pvt Ltd (*Current*)
+  * Developing and maintaining scalable backend services and systems software.
+  * Engineering robust API integrations, automated workflows, and database systems.
 
-* **Software Engineering Intern / Researcher** (*Summer 2023*)
-  * *Organization / Company:* Research Institute / Company Name
-  * Developed distributed data processing pipelines and automated CI/CD workflows.
-  * Optimized algorithmic performance, achieving a 2.5x speedup in throughput.
+Research Interests
+======
+* **High-Performance Computing (HPC) & Computer Systems**
+* **Distributed & Cloud Computing**
+* **Systems for Machine Learning & AI Infrastructure**
+* **Computer Architecture, Operating Systems & Networking**
+* **Systems & Application Security**
 
 Technical Skills
 ======
-* **Languages:** Python, C/C++, CUDA, Rust, JavaScript/TypeScript, SQL, Bash
-* **Frameworks & Tools:** PyTorch, TensorFlow, MPI, OpenMP, Git, Docker, Linux/Unix, Jekyll
-* **Specializations:** Distributed Systems, High-Performance Computing, Deep Learning, Performance Profiling
+* **Programming Languages:** Python, C/C++, SQL, Bash, JavaScript
+* **Frameworks & Libraries:** Django, REST APIs, Scikit-learn (Random Forest), Pandas, NumPy
+* **Systems & Security Tools:** Linux/Unix, Docker, Git, OWASP ZAP, Nikto, Nuclei Vulnerability Scanner
+* **Databases:** PostgreSQL, SQLite
 
-Honors & Awards
+Research Projects & Papers
 ======
-* **Graduate Fellowship / Research Award**, University Department (*2024*)
-* **Dean's Honor List / Academic Excellence Award**, University (*2020 – 2024*)
-* **Hackathon / Competition Winner / Finalist**, National Level (*2023*)
+* **Performance and Scalability Evaluation of the Nuclei Vulnerability Scanner Under Different Execution Architectures** (*2026*)
+  * Comprehensive benchmarking of vulnerability scanner throughput, resource utilization, and architectural scaling bottlenecks. (*Under Supervisor Review*)
+* **Automated Web Application Penetration Testing Using Machine Learning Models** (*2025 – 2026*)
+  * Final Year Research Project, COMSATS University Islamabad.
+  * Built an automated ML-assisted pentesting platform with 16+ functional modules integrating OWASP ZAP, Nikto, and Random Forest classification.
 
-Publications
+Publications & Working Papers
 ======
   <ul>{% for post in site.publications reversed %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
-
-Academic Service & Leadership
-======
-* **Peer Reviewer:** IEEE / ACM Conferences and Workshops
-* **Mentor:** Undergraduate Research Mentorship Program
-* **Member:** Association for Computing Machinery (ACM), IEEE Computer Society

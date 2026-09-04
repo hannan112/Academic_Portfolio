@@ -7,34 +7,26 @@ redirect_from:
   - /about.html
 ---
 
-Hi, my name is **Hannan**. I am a Computer Science researcher / engineer passionate about building high-performance, intelligent computing systems and cutting-edge software solutions.
+I am a **Software Engineer** and aspiring researcher with a strong interest in building efficient, scalable, and secure computing systems. I graduated with a Bachelor's degree in Software Engineering from **COMSATS University Islamabad, Lahore Campus**.
 
-My research focuses on the intersection of **High-Performance Computing (HPC)**, **Artificial Intelligence / Machine Learning**, and **Distributed Systems**. I enjoy designing scalable architectures, optimizing computational efficiency, and developing practical open-source tools.
+My research interests lie broadly in **Computer Systems**, including **High-Performance Computing (HPC), Distributed Systems, Operating Systems, Computer Architecture, Systems Security, Networking, Cloud Computing, and AI Systems**. I am particularly interested in designing high-performance and reliable infrastructures that support large-scale, data-intensive, and intelligent applications.
+
+Beyond academics, I enjoy developing systems software, exploring emerging technologies, and contributing to research-driven projects. I am currently working as a Software Engineer at **Utilexa Labs Pvt Ltd**, and am **actively seeking funded MS/PhD opportunities** where I can collaborate with researchers and contribute to advancing modern computer systems.
 
 ---
 
 ### Research Interests
-- **Artificial Intelligence & Deep Learning**: Large-scale models, optimization, and efficient inference.
-- **High-Performance Computing (HPC)**: Parallel computing, GPU acceleration, and distributed communication.
-- **Systems & Architecture**: Memory optimization, data-intensive pipelines, and cloud computing.
-- **Software Engineering**: Robust system design, reproducible science, and open-source ecosystems.
+- **High-Performance Computing (HPC) & Computer Systems**
+- **Distributed & Cloud Computing**
+- **Systems for Machine Learning & AI Infrastructure**
+- **Computer Architecture & Operating Systems**
+- **Networking & Systems Security**
 
 ---
 
-### News & Updates
-<div style="max-height: 220px; overflow-y: auto; padding: 12px 16px; border: 1px solid #e2e8f0; border-radius: 8px; background-color: #f8fafc;">
-  <ul style="margin: 0; padding-left: 20px; line-height: 1.7;">
-    <li><strong>[Sep 2026]</strong> Launched my academic portfolio website on GitHub Pages!</li>
-    <li><strong>[Aug 2026]</strong> Submitted our latest research paper on scalable machine learning systems.</li>
-    <li><strong>[Jun 2026]</strong> Released a new open-source software release on GitHub.</li>
-    <li><strong>[May 2026]</strong> Presented research findings at the annual departmental colloquium.</li>
-  </ul>
-</div>
+### Contact & Collaboration
+Feel free to explore my **[Research & Projects](/portfolio/)**, **[Working Papers](/publications/)**, or **[Curriculum Vitae](/cv/)**.
 
----
-
-### Selected Highlights & Projects
-- **[Research Project Name]**: Developing high-throughput data compression and communication pipelines. ([Code](https://github.com/) | [Paper](/publications/))
-- **[Open Source Toolkit]**: Fast, scalable utilities for distributed training and benchmarking. ([Repository](https://github.com/))
-
-Feel free to check out my **[Publications](/publications/)**, **[Projects](/portfolio/)**, or **[CV & Experience](/cv/)**. You can also reach out to me directly at **hannan@example.edu** or connect via [LinkedIn](https://linkedin.com) / [GitHub](https://github.com).
+- **Email:** [i.hannanalimirza@gmail.com](mailto:i.hannanalimirza@gmail.com)
+- **LinkedIn:** [linkedin.com/in/hannan-ali-344600248](https://www.linkedin.com/in/hannan-ali-344600248)
+- **GitHub:** [github.com/hannan112](https://github.com/hannan112)

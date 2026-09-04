@@ -12,7 +12,7 @@ site_theme               : "default" # The available themes options are "default
 title                    : "Hannan Ali"
 title_separator          : "-"
 name                     : &name "Hannan Ali"
-description              : &description "Hannan Ali - Software Engineer & Aspiring Computer Systems Researcher"
+description              : &description "Hannan Ali - Software Engineer & Motivated Computer Systems Researcher"
 url                      : "https://hannan112.github.io"
 baseurl                  : "/Acedamic_Portfolio" # Subpath for repository Acedamic_Portfolio
 repository               : "hannan112/Acedamic_Portfolio"
@@ -23,9 +23,9 @@ author:
   avatar           : "Hannan_Ali.png" # Profile photo in /images/ or /assets/
   name             : "Hannan Ali"
   pronouns         : # example: "he/him" or "she/her"
-  bio              : "Software Engineer & Aspiring Computer Systems Researcher"
+  bio              : "Software Engineer & Motivated Computer Systems Researcher"
   location         : "Lahore, Pakistan"
-  employer         : "Utilexa Labs Pvt Ltd"
+  employer         : "COMSATS University Islamabad"
   uri              : # Personal external URL
   email            : "i.hannanalimirza@gmail.com"
 

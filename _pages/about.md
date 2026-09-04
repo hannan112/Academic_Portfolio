@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a **Software Engineer** and aspiring researcher with a strong interest in building efficient, scalable, and secure computing systems. I graduated with a Bachelor's degree in Software Engineering from **COMSATS University Islamabad, Lahore Campus**.
+I am a **Software Engineer** and motivated researcher with a strong interest in building efficient, scalable, and secure computing systems. I graduated with a Bachelor's degree in Software Engineering from **COMSATS University Islamabad, Lahore Campus**.
 
 My research interests lie broadly in **Computer Systems**, including **High-Performance Computing (HPC), Distributed Systems, Operating Systems, Computer Architecture, Systems Security, Networking, Cloud Computing, and AI Systems**. I am particularly interested in designing high-performance and reliable infrastructures that support large-scale, data-intensive, and intelligent applications.
 

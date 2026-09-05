@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://hannan112.github.io/Academic_Portfolio/sitemap.xml

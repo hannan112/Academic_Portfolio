@@ -45,9 +45,9 @@ Research Projects & Papers
 ======
 * **Performance and Scalability Evaluation of the Nuclei Vulnerability Scanner Under Different Execution Architectures** (*2026*)
   * Comprehensive benchmarking of vulnerability scanner throughput, resource utilization, and architectural scaling bottlenecks. (*Under Supervisor Review*)
-* **Automated Web Application Penetration Testing Using Machine Learning Models** (*2025 – 2026*)
-  * Final Year Research Project, COMSATS University Islamabad.
-  * Built an automated ML-assisted pentesting platform with 16+ functional modules integrating OWASP ZAP, Nikto, and Random Forest classification.
+* **Reducing False Positives in Automated Web Vulnerability Scanning** (*2025 – 2026*)
+  * Final Year Undergraduate Thesis, COMSATS University Islamabad (Team Lead).
+  * Developed a weakly supervised confidence-estimation approach (Random Forest) suppressing 29.5% of alerts across 94,256 findings while preserving high-severity results.
 
 Publications & Working Papers
 ======

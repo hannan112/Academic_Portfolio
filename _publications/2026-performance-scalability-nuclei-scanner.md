@@ -9,6 +9,8 @@ venue: 'Manuscript in Preparation'
 citation: '<b>Hannan Ali</b> (2026). &quot;Performance and Scalability Evaluation of the Nuclei Vulnerability Scanner Under Different Execution Architectures.&quot; <i>Manuscript in preparation ahead of conference submission</i>.'
 ---
 
+{% include base_path %}
+
 ### Overview & Status
 - **Author:** Hannan Ali
 - **Status:** Manuscript complete; under advisor review ahead of academic conference submission.

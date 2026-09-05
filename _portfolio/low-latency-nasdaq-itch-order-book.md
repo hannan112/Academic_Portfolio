@@ -5,6 +5,8 @@ collection: portfolio
 date: 2026-02-01
 ---
 
+{% include base_path %}
+
 Independent systems research & performance engineering project (2025 – 2026).
 
 ### Motivation

@@ -12,7 +12,7 @@ site_theme               : "default" # The available themes options are "default
 title                    : "Hannan Ali"
 title_separator          : "-"
 name                     : &name "Hannan Ali"
-description              : &description "Hannan Ali - Software Engineer & Motivated Computer Systems Researcher"
+description              : &description "Hannan Ali - Computer Systems Researcher & Software Engineer"
 url                      : "https://hannan112.github.io"
 baseurl                  : "/Academic_Portfolio" # Subpath for repository Academic_Portfolio
 repository               : "hannan112/Academic_Portfolio"
@@ -23,7 +23,7 @@ author:
   avatar           : "Hannan_Ali.png" # Profile photo in /images/ or /assets/
   name             : "Hannan Ali"
   pronouns         : # example: "he/him" or "she/her"
-  bio              : "Software Engineer & Motivated Computer Systems Researcher"
+  bio              : "Computer Systems Researcher & Software Engineer"
   location         : "Lahore, Pakistan"
   employer         : "COMSATS University Islamabad"
   uri              : # Personal external URL

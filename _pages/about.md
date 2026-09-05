@@ -7,26 +7,33 @@ redirect_from:
   - /about.html
 ---
 
-I am a **Software Engineer** and motivated researcher with a strong interest in building efficient, scalable, and secure computing systems. I graduated with a Bachelor's degree in Software Engineering from **COMSATS University Islamabad, Lahore Campus**.
+I am a **Computer Systems Researcher** and Software Engineer focused on high-performance computing, execution architectures, memory hierarchy optimization, and systems security. I hold a B.S. in Software Engineering from **COMSATS University Islamabad, Lahore Campus** (Graduated Jan. 2026).
 
-My research interests lie broadly in **Computer Systems**, including **High-Performance Computing (HPC), Distributed Systems, Operating Systems, Computer Architecture, Systems Security, Networking, Cloud Computing, and AI Systems**. I am particularly interested in designing high-performance and reliable infrastructures that support large-scale, data-intensive, and intelligent applications.
-
-Beyond academics, I enjoy developing systems software, exploring emerging technologies, and contributing to research-driven projects. I am currently working as a Software Engineer at **Utilexa Labs Pvt Ltd**, and am **actively seeking funded MS/PhD opportunities** where I can collaborate with researchers and contribute to advancing modern computer systems.
+Currently, I work as a Software Engineer at **Utilexa Labs Pvt Ltd**, where I engineer scalable backend architectures and performance-critical services. In parallel, I conduct empirical systems research investigating scanner scalability on multi-core platforms and cache-efficient execution runtimes.
 
 ---
 
-### Research Interests
-- **High-Performance Computing (HPC) & Computer Systems**
-- **Distributed & Cloud Computing**
-- **Systems for Machine Learning & AI Infrastructure**
-- **Computer Architecture & Operating Systems**
-- **Networking & Systems Security**
+### Research Interests & Focus Areas
+My research focuses on understanding and improving how systems software interacts with underlying multi-core and memory architectures:
+
+* **High-Performance Computing (HPC) & Execution Architectures:** Parallel and concurrent execution models (multithreaded vs. multiprocess), scaling sweeps, and bottleneck localization under high-concurrency workloads.
+* **Operating Systems, Concurrency & Runtimes:** Process isolation, thread synchronization, I/O multiplexing, and scheduler contention.
+* **Low-Latency Systems & Cache Locality:** Data-oriented memory layout, cache-conscious data structures, zero-allocation hot paths, and cycle-level performance profiling (`perf`).
+* **Empirical Performance Engineering:** Rigorous experimental design, instrumented benchmarking harnesses, and non-parametric statistical hypothesis testing for systems evaluation.
 
 ---
 
-### Contact & Collaboration
-Feel free to explore my **[Research & Projects](/portfolio/)**, **[Working Papers](/publications/)**, or **[Curriculum Vitae](/cv/)**.
+### Prospective Research & Graduate Studies
+I am **actively seeking funded PhD / MS opportunities in Computer Systems**. My objective is to pursue graduate research on:
+1. Designing low-overhead, deterministic execution runtimes for high-rate data streams and concurrent workloads.
+2. Characterizing memory hierarchy and cache behavior in parallel systems to optimize latency and throughput envelopes.
+3. Building automated, reproducible empirical benchmarking methodologies for modern systems software.
 
-- **Email:** [i.hannanalimirza@gmail.com](mailto:i.hannanalimirza@gmail.com)
-- **LinkedIn:** [linkedin.com/in/hannan-ali-344600248](https://www.linkedin.com/in/hannan-ali-344600248)
-- **GitHub:** [github.com/hannan112](https://github.com/hannan112)
+---
+
+### Contact & Portfolio
+Feel free to explore my **[Research & Projects](/portfolio/)**, **[Manuscripts & Preprints](/publications/)**, or **[Curriculum Vitae](/cv/)**.
+
+* **Email:** [i.hannanalimirza@gmail.com](mailto:i.hannanalimirza@gmail.com)
+* **GitHub:** [github.com/hannan112](https://github.com/hannan112)
+* **LinkedIn:** [linkedin.com/in/hannan-ali-344600248](https://www.linkedin.com/in/hannan-ali-344600248)

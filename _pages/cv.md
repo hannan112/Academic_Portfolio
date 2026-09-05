@@ -45,6 +45,8 @@ Research Projects & Papers
 ======
 * **Performance and Scalability Evaluation of the Nuclei Vulnerability Scanner Under Different Execution Architectures** (*2026*)
   * Comprehensive benchmarking of vulnerability scanner throughput, resource utilization, and architectural scaling bottlenecks. (*Under Supervisor Review*)
+* **Low-Latency Order Book for NASDAQ ITCH Market Data** (*2025 – 2026*)
+  * Cache-conscious, zero-allocation limit order book in modern C++ engineered for sub-microsecond NASDAQ TotalView-ITCH 5.0 feed processing.
 * **Reducing False Positives in Automated Web Vulnerability Scanning** (*2025 – 2026*)
   * Final Year Undergraduate Thesis, COMSATS University Islamabad (Team Lead).
   * Developed a weakly supervised confidence-estimation approach (Random Forest) suppressing 29.5% of alerts across 94,256 findings while preserving high-severity results.

@@ -14,8 +14,8 @@ title_separator          : "-"
 name                     : &name "Hannan Ali"
 description              : &description "Hannan Ali - Software Engineer & Motivated Computer Systems Researcher"
 url                      : "https://hannan112.github.io"
-baseurl                  : "/Acedamic_Portfolio" # Subpath for repository Acedamic_Portfolio
-repository               : "hannan112/Acedamic_Portfolio"
+baseurl                  : "/Academic_Portfolio" # Subpath for repository Academic_Portfolio
+repository               : "hannan112/Academic_Portfolio"
 
 # Site Author - Controls the left-hand sticky sidebar profile
 author:

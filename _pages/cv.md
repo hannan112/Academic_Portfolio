@@ -10,7 +10,7 @@ redirect_from:
 {% include base_path %}
 
 <div style="margin-bottom: 20px;">
-  <a href="{{ base_path }}/files/CV.pdf" class="btn btn--primary" target="_blank" style="text-decoration: none;">
+  <a href="{{ base_path }}/files/Hannan_CV.pdf" class="btn btn--primary" target="_blank" style="text-decoration: none;">
     <i class="fa fa-download" aria-hidden="true"></i> Download Full CV (PDF)
   </a>
 </div>

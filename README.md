@@ -66,9 +66,9 @@ Full abstract text goes here...
 Add project cards by creating Markdown files in `_portfolio/`:
 - Add title, technologies used, links to GitHub repositories, documentation, or live demos.
 
-### 6. CV & Experience (`_pages/cv.md` & `files/cv.pdf`)
+### 6. CV & Experience (`_pages/cv.md` & `files/Hannan_CV.pdf`)
 - Edit education, experience, awards, and skills directly in `_pages/cv.md`.
-- Place your printable CV PDF at `files/cv.pdf` to enable the **Download Full CV (PDF)** button.
+- Place your printable CV PDF at `files/Hannan_CV.pdf` to enable the **Download Full CV (PDF)** button.
 
 ---
 
@@ -86,6 +86,6 @@ Add project cards by creating Markdown files in `_portfolio/`:
 ├── _publications/            # Individual Markdown files for papers/preprints
 ├── _portfolio/               # Individual Markdown files for research projects
 ├── _posts/                   # Blog posts and announcements
-├── files/                    # Downloadable files (cv.pdf, slides, papers)
+├── files/                    # Downloadable files (Hannan_CV.pdf, slides, papers)
 ├── images/                   # Profile avatar (profile.png) and graphics
 ```

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026/Arch Linux) (preloaded format=pdflatex 2026.6.17)  8 SEP 2026 14:58
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026/Arch Linux) (preloaded format=pdflatex 2026.6.17)  10 SEP 2026 12:58
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -306,24 +306,24 @@ tawesome5
 (./Hannan_CV.aux)
 \openout1 = `Hannan_CV.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 71.
-LaTeX Font Info:    ... okay on input line 71.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 71.
-LaTeX Font Info:    ... okay on input line 71.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 71.
-LaTeX Font Info:    ... okay on input line 71.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 71.
-LaTeX Font Info:    ... okay on input line 71.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 71.
-LaTeX Font Info:    ... okay on input line 71.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 71.
-LaTeX Font Info:    ... okay on input line 71.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 71.
-LaTeX Font Info:    ... okay on input line 71.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 71.
-LaTeX Font Info:    ... okay on input line 71.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 71.
-LaTeX Font Info:    ... okay on input line 71.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 72.
+LaTeX Font Info:    ... okay on input line 72.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 72.
+LaTeX Font Info:    ... okay on input line 72.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 72.
+LaTeX Font Info:    ... okay on input line 72.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 72.
+LaTeX Font Info:    ... okay on input line 72.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 72.
+LaTeX Font Info:    ... okay on input line 72.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 72.
+LaTeX Font Info:    ... okay on input line 72.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 72.
+LaTeX Font Info:    ... okay on input line 72.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 72.
+LaTeX Font Info:    ... okay on input line 72.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 72.
+LaTeX Font Info:    ... okay on input line 72.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -373,18 +373,18 @@ LaTeX Font Info:    ... okay on input line 71.
 \makeMPintoPDFobject=\count309
 \everyMPtoPDFconversion=\toks28
 )
-Package hyperref Info: Link coloring OFF on input line 71.
+Package hyperref Info: Link coloring OFF on input line 72.
  (./Hannan_CV.out) (./Hannan_CV.out)
 \@outlinefile=\write3
 \openout3 = `Hannan_CV.out'.
 
-LaTeX Info: Redefining \microtypecontext on input line 71.
-Package microtype Info: Applying patch `item' on input line 71.
-Package microtype Info: Applying patch `toc' on input line 71.
-Package microtype Info: Applying patch `eqnum' on input line 71.
-Package microtype Info: Applying patch `footnote' on input line 71.
-Package microtype Info: Applying patch `verbatim' on input line 71.
-LaTeX Info: Redefining \microtypesetup on input line 71.
+LaTeX Info: Redefining \microtypecontext on input line 72.
+Package microtype Info: Applying patch `item' on input line 72.
+Package microtype Info: Applying patch `toc' on input line 72.
+Package microtype Info: Applying patch `eqnum' on input line 72.
+Package microtype Info: Applying patch `footnote' on input line 72.
+Package microtype Info: Applying patch `verbatim' on input line 72.
+LaTeX Info: Redefining \microtypesetup on input line 72.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
@@ -401,33 +401,33 @@ File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman
 (RS)
 )
 LaTeX Font Info:    Trying to load font information for U+fontawesomefree2 on i
-nput line 77.
+nput line 78.
 
 (/usr/share/texmf-dist/tex/latex/fontawesome5/ufontawesomefree2.fd)
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <9> on input line 77.
+(Font)              <9> on input line 78.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 77.
+(Font)              <6> on input line 78.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 77.
-LaTeX Font Info:    Trying to load font information for U+lasy on input line 77
+(Font)              <5> on input line 78.
+LaTeX Font Info:    Trying to load font information for U+lasy on input line 78
 .
 
 (/usr/share/texmf-dist/tex/latex/base/ulasy.fd
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
 LaTeX Font Info:    Trying to load font information for U+fontawesomefree1 on i
-nput line 78.
+nput line 79.
 
 (/usr/share/texmf-dist/tex/latex/fontawesome5/ufontawesomefree1.fd)
 LaTeX Font Info:    Trying to load font information for U+fontawesomebrands0 on
- input line 80.
+ input line 81.
 
 (/usr/share/texmf-dist/tex/latex/fontawesome5/ufontawesomebrands0.fd)
 LaTeX Font Info:    Font shape `U/fontawesomebrands0/solid/n' in size <9> not a
 vailable
 (Font)              Font shape `U/fontawesomebrands0/regular/n' tried instead o
-n input line 80.
+n input line 81.
  [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texmf-dist/fonts
@@ -442,11 +442,11 @@ Package rerunfilecheck Info: File `Hannan_CV.out' has not changed.
 (rerunfilecheck)             Checksum: 3B02BA35BCE5F320BC58577FEFF1E368;914.
  ) 
 Here is how much of TeX's memory you used:
- 15153 strings out of 469515
- 256323 string characters out of 5470807
- 713326 words of memory out of 5000000
+ 15155 strings out of 469515
+ 256335 string characters out of 5470807
+ 714326 words of memory out of 5000000
  43576 multiletter control sequences out of 15000+600000
- 635838 words of font info for 99 fonts, out of 8000000 for 9000
+ 635889 words of font info for 100 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  75i,9n,79p,1006b,592s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texmf-dist/fonts/type1/public/fontawesome5/FontAwesome5Brands-Reg
@@ -457,7 +457,7 @@ usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/share/texmf
 ype1/public/amsfonts/cm/cmr9.pfb></usr/share/texmf-dist/fonts/type1/public/amsf
 onts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.
 pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmti9.pfb>
-Output written on Hannan_CV.pdf (2 pages, 156095 bytes).
+Output written on Hannan_CV.pdf (2 pages, 156342 bytes).
 PDF statistics:
  103 PDF objects out of 1000 (max. 8388607)
  79 compressed objects within 1 object stream

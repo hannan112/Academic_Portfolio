@@ -24,6 +24,7 @@
 }{%
 	\providecommand{\faMapMarker}{}%
 	\providecommand{\faEnvelope}{}%
+	\providecommand{\faGlobe}{}%
 	\providecommand{\faLinkedin}{}%
 	\providecommand{\faGithub}{}%
 }
@@ -125,8 +126,8 @@
 	{COMSATS University Islamabad $\;\vert\;$ Team lead, three-person team}{2025}
 	\cvlist
 	\cvbullet{Motivation: automated web security assessment is limited less by detection coverage than by false-positive alert triage, which displaces cost from detection to manual triage.}
-	\cvbullet{Designed an end-to-end vulnerability analysis pipeline combining active scanning (OWASP ZAP, Nikto) with passive crawling behind a modular Django service interface.}
-	\cvbullet{Developed a weakly supervised confidence-estimation approach (Random Forest) over scanner behavioral and contextual features, suppressing 29.5\% of alerts across 94,256 findings while preserving high-severity findings.}
+	\cvbullet{Designed an end-to-end vulnerability analysis pipeline combining active scanning (OWASP ZAP, Nuclei, SSLyze) with passive reconnaissance and JavaScript-aware crawling behind a modular Django service interface using an adapter pattern over each external tool.}
+	\cvbullet{Developed a weakly supervised confidence-estimation approach (Random Forest) over scanner behavioral and contextual features, trained on a unified corpus of 100{,}000+ scan findings; on a held-out real-world scan it suppressed 25.2\% of alerts (375 of 1{,}489) while preserving high-severity injection and cross-site scripting findings.}
 	\cvbullet{Led experimental design, evaluation protocol, and written reporting for a three-person team.}
 	\cvlistend
 	
@@ -168,7 +169,7 @@
 	
 	\cvitem
 	{Software Engineer}{Lahore, Pakistan}
-	{Utilexa Labs}{Jan.\ 2025 -- Present}
+	{Utilexa Labs}{Jan.\ 2026 -- Present}
 	\cvlist
 	\cvbullet{Implement backend services and APIs in Python and C++, with responsibility for latency, throughput, and resource behavior of the services in production.}
 	\cvbullet{Analyze and tune server-side performance; work across the deployment path from design through containerized release.}
@@ -176,7 +177,7 @@
 	
 	\cvitem
 	{Freelance Software Engineer}{Remote}
-	{Independent}{Jan.\ 2023 -- Dec.\ 2024}
+	{Independent}{Jan.\ 2023 -- Dec.\ 2025}
 	\cvlist
 	\cvbullet{Designed and implemented backend architectures and REST APIs for international clients (Python, Django) --- data model, request handling, and deployment configuration --- with accompanying client applications in React and Next.js.}
 	\cvlistend
@@ -194,10 +195,9 @@
 			Performance Engineering & Benchmarking methodology, latency and throughput measurement, cache-aware data layout, profiling-driven optimization \\
 			Parallel Computing & Multithreaded and multiprocess execution models, scalability analysis \\
 			Machine Learning & Supervised classification, feature engineering, model evaluation (scikit-learn) \\
-			Statistical Methods & Non-parametric hypothesis testing (Kruskal--Wallis, Mann--Whitney U), experimental design \\
-			Security Tools & OWASP ZAP, Burp Suite, Nmap, Nuclei, Scrapy \\
+			Security Tools & OWASP ZAP, Nuclei, SSLyze, Burp Suite, Nmap \\
 			Embedded Systems & ESP32, Arduino, sensor interfacing \\
-
+			
 		\end{tabularx}
 	}
 	\cvsectionlistend
